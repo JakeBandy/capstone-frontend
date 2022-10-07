@@ -29,7 +29,7 @@ function App() {
     <form>
       <label for="text_todo">
         Last name:
-        <input type="text" name="todo" onChange={handleChange} />
+        <input type="text" name="todo" />
       </label>
     </form>
     <h1>{ todos }</h1>
