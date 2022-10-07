@@ -31,8 +31,6 @@ function App() {
         Last name:
         <input type="text" name="todo" onChange={handleChange} />
       </label>
-      <button onClick={handleSubmit}>
-      </button>
     </form>
     <h1>{ todos }</h1>
     <h2>-Eat breakfast</h2>
