@@ -47,13 +47,10 @@ export const CreateUserForm = () => {
 
   return (
     <form>
-      <label for="first_name">
-        First name:
-        <input type="text" name="first_name" onChange={handleChange} />
-      </label>
-      <label for="last_name">
+      
+      <label for="text_todo">
         Last name:
-        <input type="text" name="last_name" onChange={handleChange} />
+        <input type="text" name="todo" onChange={handleChange} />
       </label>
       <input
         type="submit"
