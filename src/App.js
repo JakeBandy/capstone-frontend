@@ -26,7 +26,16 @@ function App() {
 
     <h1>Welcome, Jake</h1>
     <h4>Your tasks</h4>
-    <CreateUserForm />
+    <form>
+      <label for="text_todo">
+        Last name:
+        <input type="text" name="todo" onChange={handleChange} />
+      </label>
+      <input
+        type="submit"
+        }
+      />
+    </form>
     <h1>{ todos }</h1>
     <h2>-Eat breakfast</h2>
     <h2>-Go to the gym</h2>
