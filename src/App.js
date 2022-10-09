@@ -32,7 +32,7 @@ function App() {
         <input type="text" name="todo" />
       </label>
     </form>
-    <h1>{ todos }</h1>
+    <h1>{ todos.text_todo }</h1>
     <h2>-Eat breakfast</h2>
     <h2>-Go to the gym</h2>
     <h2>-Do coding interviews</h2>
