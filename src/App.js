@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     const fetchTodoData = async () => {
-      const data = await fetch("capstone-backend-ivory.vercel.app/todos");
+      const data = await fetch("https://capstone-backend-ivory.vercel.app/todos");
 
       const json = await data.json();
 
