@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     const fetchTodoData = async () => {
-      const data = await fetch("capstone-backend-ten.vercel.app/todos");
+      const data = await fetch("capstone-backend-ivory.vercel.app/todos");
 
       const json = await data.json();
 
@@ -28,11 +28,11 @@ function App() {
     <h4>Your tasks</h4>
     <form>
       <label for="text_todo">
-        Last name:
+        Todo:
         <input type="text" name="todo" />
       </label>
     </form>
-    <h1>{ todos }</h1>
+    <h1>{ todos.text_todo }</h1>
     <h2>-Eat breakfast</h2>
     <h2>-Go to the gym</h2>
     <h2>-Do coding interviews</h2>
